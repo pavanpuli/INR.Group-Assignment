@@ -1,0 +1,115 @@
+.container img {
+    width: 448px;
+    height: 270px;
+}
+.btns {
+    display: flex;
+}
+.btns button {
+    border: none;
+    outline: none;
+    width: 260px;
+    height: fit-content;
+    background-color: #ffff;
+    text-align: left;
+    cursor: pointer;
+}
+.uparr {
+    background: #e4e8eb;
+    border: 1px solid #e5e5e5;
+    height: 72px;
+    width: 65px;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+.showproducts {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btns button:active {
+    /* content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -10px; */
+    border-bottom: 2px solid black;
+}
+.products {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 13px;
+    align-items: center;
+}
+.price-details {
+    display: flex;
+    /* border: 1px solid blue; */
+    height: 25px;
+    margin-top: 15px;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+.pro-img {
+    width: 146px;
+    height: 231px;
+    border: 1px solid #e5e5e5;
+    padding: 25px;
+    border-radius: 25px;
+}
+.details {
+    border: 1px solid #e5e5e5;
+    width: 360px;
+    box-sizing: border-box;
+    padding: 10px;
+    height: fit-content;
+    border-left: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.company {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: -50px;
+}
+h1 {
+    margin-left: 15px;
+    margin-top: -5px;
+    /* border: 1px solid blue; */
+    width: 100px;
+}
+.des1 {
+    margin-top: -50px;
+    margin-left: 5px;
+}
+.thumbsup {
+    width: 20px;
+    height: 20px;
+    margin-left: 155px;
+    cursor: pointer;
+}
+.msg {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.company1 {
+    display: flex;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: 18px;
+}
+.stars {
+    margin-top: -125px;
+}
