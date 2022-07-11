@@ -1,0 +1,51 @@
+.loginpage-container {
+    width: 476px;
+    height: 550px;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    margin-left: 431px;
+    padding: 0px 75px;
+    background-color: #ffff;
+}
+.logo {
+    display: flex;
+}
+.logo img:nth-child(1) {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 61.7px;
+    height: 71.47px;
+}
+.logo img:nth-child(2) {
+    margin-top: 65px;
+    margin-left: 10px;
+    width: 214.54px;
+    height: 38.95px;
+}
+.email-text {
+    text-align: left;
+    color: #464b4e;
+    font-size: 14px;
+    font-weight: 700;
+}
+.forget-text {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: #464b4e;
+}
+.enter-btn {
+    width: 260px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #464b4e;
+    color: #ffff;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    border: transparent;
+    margin-left: 35px;
+}
